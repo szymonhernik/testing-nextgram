@@ -1,3 +1,14 @@
 export default function Page() {
-  return <div className="bg-red-500">Photos Page</div>;
+  return (
+    <div
+      style={{
+        backgroundColor: "blue",
+        color: "white",
+        fontSize: "2rem",
+        padding: "2rem",
+      }}
+    >
+      Photos Page without modal. Shouldn't see it until refreshed.
+    </div>
+  );
 }
